@@ -1,0 +1,14 @@
+{
+    "users": [
+        {
+            "usuario": "arichango@gmail.com",
+            "contra" : "123",
+            "rol": "admin"
+        },
+        {
+            "usuario": "steven@gmail.com",
+            "contra" : "123",
+            "rol": "estudiante"
+        }
+    ]    
+}

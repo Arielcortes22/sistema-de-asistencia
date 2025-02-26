@@ -1,0 +1,6 @@
+#General{
+    text-align: center;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+}
