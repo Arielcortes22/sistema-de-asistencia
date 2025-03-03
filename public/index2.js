@@ -31,7 +31,7 @@ async function mostrarRepuestas() {
     datos.forEach(Element=>{
 
 
-        const contenedorDatos = tabla1
+        contenedor.inertext = Element.tabla1
     })
     
 
