@@ -28,14 +28,8 @@ async function mostrarRepuestas() {
     
     const datos = await getUsers()
     
-    datos.forEach(Element=>{
-
-
-        contenedor.inertext = Element.tabla1
-    })
     
-
-    
+ 
 }
 
 // Mostrar usuarios al cargar la página
