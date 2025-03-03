@@ -9,42 +9,41 @@
 </head>
 <body>
     <div id="Titulo">
-    <h1>Administrador</h1>
-    <a href="index.html"><button id="btnvvlv">Volver</button></a>
- </div>
-
+        <h1>Administrador</h1>
+        <a href="index.html"><button id="btnvvlv">Volver</button></a>
+    </div>
 
     <div id="General">
-   <table class="table">
-    <thead class="thead-dark">
-      <tr >
-        <th>#</th>
-        <th>First Name</th>
-        <th>Last Name</th>
-        <th>:..:</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr id="coso1">
-        <th scope="row">1</th>
-        <td>Ariel</td>
-        <td>Cortes</td>
-      </tr>
-      <tr id="coso2">
-        <th scope="row" >2</th>
-        <td>Sofia</td>
-        <td>Ramírez</td>
-      </tr>
-    </tbody>
-  </table>
-  <div id="val">
-
-  </div>
-  
-        
+        <table class="table">
+            <thead class="thead-dark">
+                <tr>
+                    <th>#</th>
+                    <th>Nombre</th>
+                    <th>Solicitud</th>
+                    <th>sede</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <table id="tabla1">
+                <tr id="coso1">
+                    <th scope="row">1</th>
+                    <td id="mostrarNombre"><input id="infoNombre" type="text"></td>
+                    <td id="mostrarSolicitud"></td>
+                    <td><select name="" id="">
+                        <option value="sede1">puntarenas</option>
+                        <option value="sede2">Guanacaste</option>
+                        <option value="sede3">Limon</option>
+                    </select></td>
+                    <td><button id="Aceptar" type="button" class="btn btn-success">Aceptar</button></td>
+                </tr>
+            </table>
+        </table>
+        <div id="val"></div>
+    </div>
 
     <script type="module" src="index2.js"></script>
-   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" ></script>
-   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" ></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" ></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" ></script>
 </body>
 </html>

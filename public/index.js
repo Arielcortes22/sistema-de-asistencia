@@ -3,6 +3,8 @@ import { getUsers } from "./services/llamados.js";
 const Username = document.getElementById("username");
 const password = document.getElementById("password");
 const Iniciar = document.getElementById("iniciar");
+const users = document.getElementById("users");
+
   
 
 
@@ -10,26 +12,6 @@ let verificacion = false;
 Iniciar.addEventListener("click", function () {
     validacion();
 });
-
-/* arreglar esto */
-obtener_localStorage();
-
-function obtener_localStorage(){
-    if(localStorage.getItem("users") ) {
-
-        let  Usuarios = localStorage.getItem("users");
-        let persona = JSON.parse(localStorage.getItem("personas") );
-
-        console.log(Usuarios);
-        console.log(persona);
-        
-        
-    }else{
-        console.log("NO hay nada");
-        
-    }
-}
-/* final de lo que hay que arreglar */
 
     
 
@@ -64,6 +46,7 @@ async function validacion() {
                 });
             }); /* 4 segundos aqui o se puede configurar a gusto */
             verificacion = true;
+            localStorage.setItem("nombre",Username.value)
             window.location.replace('index2.html');
 
         } else if (datos[index].usuario === Username.value && datos[index].contra === password.value && datos[index].rol === "estudiante"){
@@ -74,6 +57,7 @@ async function validacion() {
                 showConfirmButton: true,
             });
             verificacion = true;
+            localStorage.setItem("nombre",Username.value)
             window.location.replace('indexEst.html');
         }
     }

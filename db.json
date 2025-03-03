@@ -1,19 +1,81 @@
 {
-    "users": [
-        {
-            "usuario": "arichango@gmail.com",
-            "contra" : "123",
-            "rol": "admin"
-        },
-        {
-            "usuario": "steven@gmail.com",
-            "contra" : "123",
-            "rol": "estudiante"
-        },
-        {
-            "usuario": "sofia@gmail.com",
-            "contra" : "123",
-            "rol": "admin"
-        }
-    ]    
+  "users": [
+    {
+      "usuario": "arichango@gmail.com",
+      "contra": "123",
+      "rol": "admin",
+      "id": "245e"
+    },
+    {
+      "usuario": "steven@gmail.com",
+      "contra": "123",
+      "rol": "estudiante",
+      "id": "515e"
+    },
+    {
+      "usuario": "sofia@gmail.com",
+      "contra": "123",
+      "rol": "admin",
+      "id": "dd17"
+    },
+    {
+      "usuario": "Fabricio@gmail.com",
+      "contra": "123",
+      "rol": "estudiante",
+      "id": "2cd0"
+    },
+    {
+      "id": "afdc",
+      "nombre": "Nuevo Estudiante",
+      "consulta": "Consulta de prueba"
+    }
+  ],
+  "Solicitudes": [
+    {
+      "id": "",
+      "Nombre": "",
+      "Solicitud": "",
+      "sede": ""
+    },
+    {
+      "id": "8c99",
+      "nombre": "no",
+      "soli": "aaa"
+    },
+    {
+      "id": "5918",
+      "nombre": "no",
+      "soli": "aaa"
+    },
+    {
+      "id": "51b0",
+      "nombre": "no",
+      "soli": "aaa"
+    },
+    {
+      "id": "46e1",
+      "nombre": "no",
+      "soli": "aaa"
+    },
+    {
+      "id": "8a41",
+      "nombre": "no",
+      "soli": "a"
+    },
+    {
+      "id": "897d",
+      "nombre": "asA",
+      "soli": "asas"
+    },
+    {
+      "id": "a337",
+      "nombre": "asA",
+      "soli": "asas"
+    },
+    {
+      "id": "cae4",
+      "nombre": "steven@gmail.com",
+      "soli": "asas"
+    }
+  ]
 }
