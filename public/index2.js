@@ -9,6 +9,7 @@ const deleteButtons = document.querySelectorAll('.delete-btn');
 const Aceptar = document.getElementById("Aceptar");
 const coso1 = document.getElementById("coso1");
 const Enviar = document.getElementById("Enviar");
+const val = document.getElementById("val");
 
 
 let soli = localStorage.getItem("infosolicitud");
@@ -27,6 +28,12 @@ mostrarRepuestas()
 async function mostrarRepuestas() {
     
     const datos = await getUsers()
+
+    let parrafo3 = document.createElement("p")
+    parrafo3.innerText = datos.mostrarRepuestas;
+    val.appendChild(parrafo3)
+    
+
     
     
  
